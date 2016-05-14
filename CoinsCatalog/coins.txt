@@ -1,0 +1,4 @@
+4
+1|1|2 złote|Józef Piłsudski|1934|4.4|22|ząbkowany|
+2|0|20 złotych|Głowa Kobiety|1933|44|40,40|gładki|
+3|1|5 złotych|Żaglowiec|1936|11|28|ząbkowany|

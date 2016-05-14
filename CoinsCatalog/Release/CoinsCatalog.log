@@ -1,0 +1,36 @@
+﻿Build started 2016-05-10 15:41:51.
+     1>Project "D:\Qt\CoinsCatalog\CoinsCatalog\CoinsCatalog.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_coinscatalog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_coinscatalog.cpp, GeneratedFiles\Release\moc_coinscatalog.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_coinwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_coinwindow.cpp, GeneratedFiles\Release\moc_coinwindow.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_coinwindowmanager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_coinwindowmanager.cpp, GeneratedFiles\Release\moc_coinwindowmanager.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_removecoinwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_removecoinwindow.cpp, GeneratedFiles\Release\moc_removecoinwindow.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.5\msvc2013\include /I.\GeneratedFiles\Release /IC:\Qt\5.5\msvc2013\include\QtCore /IC:\Qt\5.5\msvc2013\include\QtGui /IC:\Qt\5.5\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt coinsmanager.cpp coinwindow.cpp
+         coinsmanager.cpp
+         coinwindow.cpp
+     1>coinwindow.cpp(122): warning C4129: '|' : unrecognized character escape sequence
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Qt\CoinsCatalog\Win32\Release\\CoinsCatalog.exe" /NOLOGO /LIBPATH:C:\Qt\5.5\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\Qt\CoinsCatalog\Win32\Release\CoinsCatalog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Qt\CoinsCatalog\Win32\Release\CoinsCatalog.lib" /MACHINE:X86 /SAFESEH Release\CoinsCatalog.res
+         Release\coin.obj
+         Release\coinscatalog.obj
+         Release\coinsmanager.obj
+         Release\coinwindow.obj
+         Release\coinwindowmanager.obj
+         Release\dimensions.obj
+         Release\functions.obj
+         Release\qrc_coinscatalog.obj
+         Release\moc_coinscatalog.obj
+         Release\moc_coinwindow.obj
+         Release\moc_coinwindowmanager.obj
+         Release\moc_removecoinwindow.obj
+         Release\main.obj
+         Release\removecoinwindow.obj
+         Release\roundcoin.obj
+         Release\squarecoin.obj
+         CoinsCatalog.vcxproj -> D:\Qt\CoinsCatalog\Win32\Release\CoinsCatalog.exe
+     1>Done Building Project "D:\Qt\CoinsCatalog\CoinsCatalog\CoinsCatalog.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.19
